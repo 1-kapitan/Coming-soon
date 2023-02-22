@@ -104,3 +104,43 @@ a{
     text-decoration: none;
     color: #8B3DBB;
 }
+
+@media all and (orientation:portrait){
+   
+    .middle{
+        display: block;
+    }
+
+    .footer .w .smedia{
+        display: block;
+        padding-bottom: 1.5%;
+    }
+
+    .header{
+        margin: 4%;
+        width: 100%;
+        color: #FFF;
+        display: block;
+    }
+    
+    .header h1{
+        font-size: 1vh;
+    }
+    
+    .header p{
+        font-size: 12px;
+    }
+    
+    .img{
+        text-align: center;
+        width: 100%;
+        padding: 4% 10% 1% 4%; 
+        display: block;
+    }
+    
+    .img img{
+        width: 80%;
+        height: auto;
+        text-align: center; 
+    }
+}
